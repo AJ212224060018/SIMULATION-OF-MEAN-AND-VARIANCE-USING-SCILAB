@@ -30,6 +30,40 @@ To write a program for mean, variance and cross correlation in SCILAB and verify
   • Verify the generated results.
   
 ### Program:
+~~~
+clear;
+clc;
+function z=f(x)
+    z=x.*4.*(1-2.*x).^2;
+endfunction
+a=0;
+b=1;
+EX=intg(a,b,f);
+function z=c(y)
+    z=y.*4.*(1-2.*y).^2;
+endfunction
+EY=intg(a,b,c);
+disp(EX,"i)Mean of X =")
+disp(EY,"Mean of Y =")
+function z=g(x)
+    z=x.^2.*4.*(1-2.*x).^2;
+endfunction
+EX2=intg(a,b,g);
+function z=h(y)
+    z=y.^2.*4.*(1-2.*y).^2;
+endfunction
+EY2=intg(a,b,h);
+vX2=EX2-(EX)^2;
+vY2=EY2-(EY)^2;
+disp(vX2,"ii)Variance of X =")
+disp(vY2,"Variance of Y =")
+x=input("type in the reference sequence=");
+y=input("type in the second sequence=");
+n1=max(size(y))-1;
+r=corr(x,y,n1);
+plot2d3(r);
+xtitle("Cross Correlation");
+~~~
 
 ### Calculation:
 
