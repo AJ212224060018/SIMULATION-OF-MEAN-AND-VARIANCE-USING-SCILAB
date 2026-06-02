@@ -67,11 +67,13 @@ xtitle("Cross Correlation");
 
 ### Calculation:
 
+### Tabulation:
+
+<img width="964" height="1600" alt="image" src="https://github.com/user-attachments/assets/ae79af40-c581-43fa-a1d8-4efc28bdd3d6" />
+
 ### Output:
 
-<img width="522" height="503" alt="Screenshot 2026-05-21 134911" src="https://github.com/user-attachments/assets/cb343c4c-8a97-48c7-8ade-33a755198e96" />
-
-<img width="762" height="693" alt="Screenshot 2026-05-21 134606" src="https://github.com/user-attachments/assets/cae45466-4d1f-40a4-97ae-6886e2408ad6" />
+<img width="955" height="1600" alt="image" src="https://github.com/user-attachments/assets/17217191-b9af-4c6a-b41f-ed8325ef2b2e" />
 
 ### Result:
 Thus the mean , variance and cross correlation are executed in Scilab and output is verified.
