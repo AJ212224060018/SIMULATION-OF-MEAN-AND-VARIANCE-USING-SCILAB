@@ -67,6 +67,9 @@ xtitle("Cross Correlation");
 
 ### Calculation:
 
+<img width="991" height="1600" alt="image" src="https://github.com/user-attachments/assets/27b1372f-d139-42cd-af84-27458a0d9c5b" />
+<img width="809" height="1600" alt="image" src="https://github.com/user-attachments/assets/e91b1543-2b47-4afc-9bf3-fc6b4631f1e8" />
+
 ### Tabulation:
 
 <img width="964" height="1600" alt="image" src="https://github.com/user-attachments/assets/ae79af40-c581-43fa-a1d8-4efc28bdd3d6" />
